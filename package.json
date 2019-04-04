@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "monorepo",
+  "scripts": {
+    "deploy": "now"
+  },
+  "workspaces": [
+    "/api/node/",
+    "www/"
+  ]
+}
