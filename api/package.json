@@ -1,5 +1,7 @@
 {
   "name": "@monorepo/node",
   "version": "1.0.0",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }

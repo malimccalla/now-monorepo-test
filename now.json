@@ -3,23 +3,11 @@
   "name": "monorepo",
   "builds": [
     {
-      "src": "www/package.json",
+      "src": "www/next.config.js",
       "use": "@now/next"
     },
     {
-      "src": "api/go/*.go",
-      "use": "@now/go"
-    },
-    {
-      "src": "api/python/*.py",
-      "use": "@now/python"
-    },
-    {
-      "src": "api/php/*.php",
-      "use": "@now/php"
-    },
-    {
-      "src": "api/node/*.js",
+      "src": "api/index.js",
       "use": "@now/node"
     }
   ],

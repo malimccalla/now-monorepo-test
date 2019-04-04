@@ -1,10 +1,12 @@
 {
   "name": "@monorepo/www",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "now-build": "next build"
+    "dev": "next"
   },
   "dependencies": {
+    "@monorepo/shared": "1.0.0",
     "isomorphic-unfetch": "3.0.0",
     "next": "^8.0.4",
     "react": "^16.8.6",
